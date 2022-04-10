@@ -1,0 +1,80 @@
+/* code by rimmel asghar(web developer)*/
+body{
+	height: 100vh;
+	background-image: url('dream.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+p{
+	color: #8f8f96;
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Poppins', sans-serif;
+
+}
+.container{
+	width: 400px;
+	padding: 40px 30px;
+	border-radius: 10px;
+	background: rgba(255,255,255,.9);
+	box-shadow: 0 5px 20px rgba(0,0,0,.15);
+	overflow: hidden;
+	text-align: center;
+}
+.container h1{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.form{
+	margin-top: 20px;
+}
+.inputcontainer{
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 33px;
+	padding: 15px 15px;
+}
+.inputbox{
+	width: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+	padding-left: 5px;
+}
+.rem{
+	text-align: left;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.button{
+	text-align: center;
+  	padding: 10px;
+  	border: 0;
+  	width: 100px;
+  	background: #27c7cd; 
+  	border-radius: 10px;
+  	margin-top: 10px;
+  	color: black;
+  	letter-spacing: 1px;
+  	font-family: 'Poppins', sans-serif;
+  	cursor: pointer;
+
+}
+.button:hover{
+	color: white;
+}
+.Sign{
+	color:#27c7cd; 
+}
+.text{
+	margin-top: 10px;
+}

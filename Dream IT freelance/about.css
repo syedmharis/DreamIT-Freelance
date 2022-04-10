@@ -1,0 +1,149 @@
+/*Code By Haris*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.nav{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 20px;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	width: 100%;
+	z-index: 10;
+}
+.logo img{
+	width: 140px;
+	height: 80px;
+	float: left;
+	margin-left: 10px;
+}
+.rightnav {
+	float: right;
+	line-height: 80px;
+}
+.leftnav{
+	float: left;
+	line-height: 80px;
+	margin-left: 350px;
+}
+nav a {
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #000000;
+	border-color:white;
+	border-radius: 4px;
+	font-family: "Poppins",Arial;
+}
+a:hover{
+	background-color: orange;
+	color: white;
+	text-decoration:none;
+}
+.container{
+	margin-top: 30px;
+}	
+.first{
+	height: 600px;
+	background-image: url('fade_bg_b.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.second{
+	height: 400px;
+	display: flex;
+	margin-bottom: 100px;
+	align-content: center;
+	margin-top: 100px;
+}	
+
+.text{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-bottom: 110px;
+	margin-top: 100px;
+	color:#ff8c00;
+
+}
+.text2{
+	margin-top: 0px;
+	display: flex;
+	padding-left: 20px;
+	padding-right: 100px;
+	line-height: 30px;
+	font-size: 25px;
+	font-family: arial;
+	font-weight: bolder;
+
+}
+
+.third{
+	height: 550px;
+	display: flex;
+	background-image: url('image5.jpeg');
+	background-size: 100% 100%;
+}
+.text3{
+	margin-top: 300px;
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+}
+
+.four{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+.footer{
+	padding-left: 10px;
+	color: #8f8f96;
+	font-family: 'Poppins', sans-serif;
+}
+.footer2{
+	padding-left: 60px;
+	color: #8f8f96;
+	font-family: 'Poppins', sans-serif;
+}
+.footer3{
+	padding-left: 100px;
+	color: #8f8f96;
+	font-family: 'Poppins', sans-serif;
+}
+.head{
+	
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-left: 20px;
+}
+.myimage img{
+	width: 140px;
+	height: 80px;
+	float: left;
+}
+.heading1{
+	margin-top: 100px;
+}
+.leftnav{
+	font-family: "Poppins",arial;
+	font-size: 22px;
+}
